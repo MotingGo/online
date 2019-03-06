@@ -1,0 +1,94 @@
+.content-wrapper{
+    width: 1000px;
+    margin: 62px auto;
+    padding: 0 16px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.recommend-articles{
+    width: 256px;
+    padding: 16px 20px;
+    font-size: 14px;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px rgba(26,26,26,.1);
+}
+.recommend-articles .title-wrapper{
+    height: 28px;
+    line-height: 14px;
+    border-bottom: 1px solid #eee;
+}
+.recommend-articles .title-wrapper span.title{
+    color: #a0a0a0;
+    font-size: 14px;
+}
+.recommend-articles ul{
+    width: 100%;
+    margin-top: 10px;
+}
+.recommend-articles ul li{
+    color: #175199;
+    margin-bottom: 8px;
+    line-height: 22px !important;
+}
+.recommend-articles ul li:last-of-type{
+    margin-bottom: 0;
+}
+.recommend-articles ul li a:hover{
+    color: #175199;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #175199;
+}
+
+
+.content-wrapper .article-box{
+    width: 654px;
+    color: #313131;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px rgba(26,26,26,.1);
+    padding: 16px 20px;
+}
+.content-wrapper .article-box .article-tags{
+    padding: 6px 0;
+}
+.content-wrapper .article-box .article-tags .tag{
+    display: inline-block;
+}
+.content-wrapper .article-box .article-tags .tag span{
+    vertical-align: middle;
+    margin-right: 1px;
+    font-size: 14px;
+    padding: 5px 12px;
+    border-radius: 100px;
+    background: rgba(0,132,255,.1);
+}
+.content-wrapper .article-box .article-tags .tag span:hover{
+    background: rgba(0,132,255,.2);
+}
+.content-wrapper .article-box .article-tags .tag span a{
+    color: #0084ff;
+}
+
+.content-wrapper .article-box .article-content{
+    width: 100%;
+    padding: 0 6px;
+    box-sizing: border-box;
+    word-break: break-all;
+}
+article h1, article h2, article h3, article h4, article h5, article h6{
+    color: #313131;
+    margin: 0 0 10px 0;
+}
+article p{
+    margin: 10px 0;
+    color: #555;
+}
+article .published-at{
+    margin: 20px 0;
+    color: #a0a0a0;
+    font-size: 14px;
+}
+

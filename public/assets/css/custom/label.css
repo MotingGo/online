@@ -1,0 +1,22 @@
+.custom_lable{
+    margin-left: 15px;
+    margin-top: 10px;
+    display: inline-block;
+    width: 90px;
+    padding: 8px 8px 8px 8px;
+    border: 1px solid #e6e6e6;
+    border-radius: 2px 0 0 2px;
+    text-align: center;
+    background-color: #FBFBFB;
+    text-overflow: ellipsis;
+    box-sizing: border-box!important;
+    cursor:pointer;
+}
+.custom_icon_close{
+    font-family: layui-icon!important;
+    font-size: 16px;
+    font-style: normal;
+}
+.custom_icon_close:hover{
+    background-color: #ff5722;
+}

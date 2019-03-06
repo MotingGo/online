@@ -1,0 +1,101 @@
+.content-wrapper{
+    width: 1000px;
+    margin: 62px auto;
+    padding: 0 16px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.article-box .article-item{
+    width: 654px;
+    margin-top: 10px;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px rgba(26,26,26,.1);
+    padding: 16px 20px;
+}
+.article-box .article-item:first-of-type{
+    margin-top: 0;
+}
+
+/* 标题和文章类型标签 */
+.article-box .article-item .title-and-type{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.article-box .article-item .title-and-type h4.title{
+    max-width: 560px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: 600;
+}
+.article-box .article-item .title-and-type h4.title a{
+    color: #1a1a1a;
+    transition: all .3s ease-in-out;
+}
+.article-box .article-item .title-and-type h4.title a:hover{
+    color: #0084ff;
+}
+.article-box .article-item .title-and-type span.type{
+    padding: 3px 12px;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 20px;
+    margin-left: 12px;
+    cursor: pointer;
+}
+.article-box .article-item .title-and-type span.type.original{
+    background: #0084ff
+}
+.article-box .article-item .title-and-type span.type.reprint{
+    background: #f1403c
+}
+
+/* 文章配图和文章内容 */
+.article-box .article-item .article-content{
+    margin-top: 16px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.article-box .article-item .article-content .img-wrapper{
+    width: 190px;
+    height: 105px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.article-box .article-item .article-content .img-wrapper img{
+    width: 200px;
+}
+.article-box .article-item .article-content .details{
+    width: 434px;
+    height: 105px;
+    margin-top: -3px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    overflow: hidden;
+}
+/* 文章底部分类标签 */
+.article-box .article-item .article-footer{
+    margin-top: 16px;
+    font-size: 14px;
+}
+.article-box .article-item .article-footer span{
+    margin-right: 20px;
+    color: #a0a0a0;
+}
+.article-box .article-item .article-footer .cate-tag a{
+    transition: all .3s ease-in-out;
+}
+.article-box .article-item .article-footer .cate-tag a:hover{
+    color: #0084ff;
+}
+
